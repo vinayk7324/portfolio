@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
-import { RouterProvider, createBrowserRouter } from 'react-router-dom';
+import { RouterProvider, createBrowserRouter, createHashRouter } from 'react-router-dom';
 import Navbar from './Component/Navbar.jsx';
 import Home from './Component/Home.jsx';
 import About from './Component/About.jsx';
@@ -10,7 +10,7 @@ import Experience from './Component/Experience';
 import Work from './Component/Work.jsx';
 import Contact from './Component/Contact.jsx'
 
-const router  = createBrowserRouter(
+const router  = createHashRouter(
 [
   {path:'/',
   element:<App/>,
