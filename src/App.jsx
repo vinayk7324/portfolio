@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import Navbar from './Component/Navbar'
-import { Outlet } from 'react-router-dom'
 import { ContextProvider } from './context/PortfolioContext'
 import Left from './Component/Left'
 import Intro from './Component/Intro'

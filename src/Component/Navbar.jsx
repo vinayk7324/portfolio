@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import img from '../assets/th1.jpg'
+import img from '../assets/th1.png'
 import { NavLink } from 'react-router-dom'
 import { usePortfolio } from '../context/PortfolioContext'
 
@@ -28,8 +28,8 @@ function Navbar() {
       <div className="  flex  w-full lg:space-y-0 lg:px-0 px-4  items-center lg:flex-row items-center justify-between">
         
         <div className="  flex items-center text-white">
-          <span className=' h-[35px] w-[35px] lg:h-[60px] lg:w-[60px] flex items-center justify-center lg:ms-5 overflow-hidden companyLogo '>
-            <img src={img} alt="Logo" className='h-[34px] w-[34px] scale-[2.1]  ' />
+          <span className=' h-[35px] w-[35px] lg:h-[60px] lg:w-[60px] flex items-center justify-center lg:ms-5 overflow-hidden  '>
+            <img src={img} alt="Logo" className='h-[40px] w-[40px]  scale-[1.6]  ' />
             
 
 

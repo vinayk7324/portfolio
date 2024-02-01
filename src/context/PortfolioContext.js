@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import { createContext } from "react";
-import Img from '../assets/th1.jpg'
+
 
 export const PortFolio = createContext(
 {
