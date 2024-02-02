@@ -7,22 +7,11 @@ import Footer from './Component/Footer'
 
 function App() {
   const [IntroVisibility,setIntroVisibility] = useState(true);
-  
-  
-
-
-
-
-
   return (
     <ContextProvider value={{IntroVisibility,setIntroVisibility}}>
 
       <div className='lg:h-screen relative lg:overflow-hidden  border-red-600 bg-[#0e0d38]'>
         <Navbar />
-
-        
-
-
         <div className="lg:h-[90%]   flex items-center justify-between">
 
           <div className="Left lg:mb-32 hidden lg:block text-white">
