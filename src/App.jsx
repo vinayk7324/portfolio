@@ -24,7 +24,7 @@ function App() {
         
         </div >
 
-      <div className="lg:absolute  w-full   lg:-bottom-32 lg:right-10  flex justify-center items-center">
+      <div className="lg:absolute  w-full   lg:bottom-0 lg:right-0">
         <Footer/>
       </div>
 

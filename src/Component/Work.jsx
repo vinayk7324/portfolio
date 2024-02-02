@@ -29,7 +29,7 @@ expand_more
               
               <div className=" flex space-x-2 mt-2 lg:mt-0 lg:space-x-7  lg:me-0 me-2">
                 <div className=" border px-3 p-1 cursor-pointer text-[16px]  text-black lg:text-[23px] transition-all  duration-200 hover:bg-[#d9d7d7] text-gray-700 rounded-md flex items-center justify-center font-bold bg-white">Demo</div>
-                <div className=" px-3 p-1 cursor-pointer text-[16px] text-black lg:text-[23px] transition-all  duration-200 hover:bg-[#d9d7d7] bg-white font-bold text-gray-700 flex items-center justify-center font-bold rounded-md">Code &#60;&#62; </div>
+                <div className=" px-3 p-1 cursor-pointer text-[16px] text-black lg:text-[23px] transition-all  duration-200 hover:bg-[#d9d7d7] bg-white font-bold text-gray-700 flex items-center justify-center font-bold rounded-md">Code &#60;/&#62; </div>
               </div>
 
             </div>
@@ -39,7 +39,7 @@ expand_more
               
               <div className=" flex space-x-2 mt-2 lg:mt-0 lg:space-x-7  lg:me-0 me-2">
                 <div className=" border px-3 p-1 cursor-pointer text-[16px]  text-black lg:text-[23px] transition-all  duration-200 hover:bg-[#d9d7d7] text-gray-700 rounded-md flex items-center justify-center font-bold bg-white">Demo</div>
-                <div className=" px-3 p-1 cursor-pointer text-[16px] text-black lg:text-[23px] transition-all  duration-200 hover:bg-[#d9d7d7] bg-white font-bold text-gray-700 flex items-center justify-center font-bold rounded-md">Code &#60;&#62; </div>
+                <div className=" px-3 p-1 cursor-pointer text-[16px] text-black lg:text-[23px] transition-all  duration-200 hover:bg-[#d9d7d7] bg-white font-bold text-gray-700 flex items-center justify-center font-bold rounded-md">Code &#60;/&#62; </div>
               </div>
 
             </div>
@@ -49,7 +49,7 @@ expand_more
               
               <div className=" flex space-x-2 mt-2 lg:mt-0 lg:space-x-7  lg:me-0 me-2">
                 <div className=" border px-3 p-1 cursor-pointer text-[16px]  text-black lg:text-[23px] transition-all  duration-200 hover:bg-[#d9d7d7] text-gray-700 rounded-md flex items-center justify-center font-bold bg-white">Demo</div>
-                <div className=" px-3 p-1 cursor-pointer text-[16px] text-black lg:text-[23px] transition-all  duration-200 hover:bg-[#d9d7d7] bg-white font-bold text-gray-700 flex items-center justify-center font-bold rounded-md">Code &#60;&#62; </div>
+                <div className=" px-3 p-1 cursor-pointer text-[16px] text-black lg:text-[23px] transition-all  duration-200 hover:bg-[#d9d7d7] bg-white font-bold text-gray-700 flex items-center justify-center font-bold rounded-md">Code &#60;/&#62; </div>
               </div>
 
             </div>
@@ -66,7 +66,7 @@ expand_more
               
               <div className=" flex space-x-2 mt-2 lg:mt-0 lg:space-x-7  lg:me-0 me-2">
                 <div className=" border px-3 p-1 cursor-pointer text-[16px]  text-black lg:text-[23px] transition-all  duration-200 hover:bg-[#d9d7d7] text-gray-700 rounded-md flex items-center justify-center font-bold bg-white">Demo</div>
-                <div className=" px-3 p-1 cursor-pointer text-[16px] text-black lg:text-[23px] transition-all  duration-200 hover:bg-[#d9d7d7] bg-white font-bold text-gray-700 flex items-center justify-center font-bold rounded-md">Code &#60;&#62; </div>
+                <div className=" px-3 p-1 cursor-pointer text-[16px] text-black lg:text-[23px] transition-all  duration-200 hover:bg-[#d9d7d7] bg-white font-bold text-gray-700 flex items-center justify-center font-bold rounded-md">Code &#60;/&#62; </div>
               </div>
 
             </div>
@@ -76,7 +76,7 @@ expand_more
               
               <div className=" flex space-x-2 mt-2 lg:mt-0 lg:space-x-7  lg:me-0 me-2">
                 <div className=" border px-3 p-1 cursor-pointer text-[16px]  text-black lg:text-[23px] transition-all  duration-200 hover:bg-[#d9d7d7] text-gray-700 rounded-md flex items-center justify-center font-bold bg-white">Demo</div>
-                <div className=" px-3 p-1 cursor-pointer text-[16px] text-black lg:text-[23px] transition-all  duration-200 hover:bg-[#d9d7d7] bg-white font-bold text-gray-700 flex items-center justify-center font-bold rounded-md">Code &#60;&#62; </div>
+                <div className=" px-3 p-1 cursor-pointer text-[16px] text-black lg:text-[23px] transition-all  duration-200 hover:bg-[#d9d7d7] bg-white font-bold text-gray-700 flex items-center justify-center font-bold rounded-md">Code &#60;/&#62; </div>
               </div>
 
             </div>
@@ -86,7 +86,7 @@ expand_more
               
               <div className=" flex space-x-2 mt-2 lg:mt-0 lg:space-x-7  lg:me-0 me-2">
                 <div className=" border px-3 p-1 cursor-pointer text-[16px]  text-black lg:text-[23px] transition-all  duration-200 hover:bg-[#d9d7d7] text-gray-700 rounded-md flex items-center justify-center font-bold bg-white">Demo</div>
-                <div className=" px-3 p-1 cursor-pointer text-[16px] text-black lg:text-[23px] transition-all  duration-200 hover:bg-[#d9d7d7] bg-white font-bold text-gray-700 flex items-center justify-center font-bold rounded-md">Code &#60;&#62; </div>
+                <div className=" px-3 p-1 cursor-pointer text-[16px] text-black lg:text-[23px] transition-all  duration-200 hover:bg-[#d9d7d7] bg-white font-bold text-gray-700 flex items-center justify-center font-bold rounded-md">Code &#60;/&#62; </div>
               </div>
 
             </div>

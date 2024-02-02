@@ -21,7 +21,7 @@ function Intro() {
         </span>
       </div>
       <div className=" ">
-        <NavLink to={"/work"} onClick={()=>{setIntroVisibility(false)}} className='lg:hover:scale-[1.02]  w-32 transition-all duration-200 cursor-pointer border  rounded-md lg:p-2 px-3 p-1 flex  items-center space-x-2 text-white '>
+        <NavLink to={"/work"} onClick={()=>{setIntroVisibility(false)}} className='lg:hover:scale-[1.02] lg:text-[20px] text-[16px] w-[60%] justify-between   lg:w-[18%] transition-all bg-blue-800 duration-200 cursor-pointer  font-semibold companyLogo  rounded-md lg:p-2 px-3 p-1 flex  items-center space-x-2 lg:space-x-5 text-white '>
           <span className=''>View Work</span>
           <span className="material-symbols-rounded">
             arrow_right_alt
@@ -32,7 +32,7 @@ function Intro() {
      </div>
 
     </div>
-    <div className="img  flex items-center hidden lg:block justify-center  jg:w-[300px]   border-green-600">
+    <div className="img  flex items-center hidden lg:block justify-center   lg:w-[17%]   border-green-600">
       <img src={Myimg} alt="profile" className=' bg-blue-600  ImgShadow shadow-white rounded-tl-full mb-24 ' />
     </div>
   </div>

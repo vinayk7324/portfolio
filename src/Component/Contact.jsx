@@ -47,7 +47,7 @@ function Contact() {
                             </div>
                         </div>
 
-                        <div className="flex items-center mt-4 text-gray-600 dark:text-gray-400">
+                        <a href='mailto:vinayiitr7324@gmail.com' className="flex items-center mt-4 text-gray-600 dark:text-gray-400">
 
                             <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" viewBox="0 0 24 24" className="lg:w-8 w-6 h-6 lg:h-8 text-gray-500"/>
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
@@ -59,7 +59,7 @@ function Contact() {
                             <div className="ml-4 text-md tracking-wide font-semibold w-40">
                                 vinayiitr7324@gmail.com
                             </div>
-                        </div>
+                        </a>
                     </div>
 
                     <form className="p-6 flex flex-col justify-center">
