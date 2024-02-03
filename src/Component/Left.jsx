@@ -9,7 +9,7 @@ function Left() {
   
   return (
 
-    <div className="">
+    <div className=" lg:mt-32">
       <div className=""> 
 <div className="Linkedin cursor-pointer px-3  space-x-3 -translate-x-[54%] hover:-translate-x-0 transition-all duration-700 flex items-center">
   <a href='#contact' className=" h-14 flex items-center font-semibold  ">LinkedIn</a>

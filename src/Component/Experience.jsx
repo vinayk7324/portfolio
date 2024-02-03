@@ -12,7 +12,7 @@ function Experience() {
   return (
     <div className='text-white   lg:p-0 p-2  lg:w-[100%]  '>
       <div className="flex  lg:space-y-7 space-y-3 flex-col lg:p-0 p">
-        <span className='relative lg:w-40  text-[25px] w-24 lg:text-3xl font-bold lg:after:border-[3px] after:border-[1px] after:border-blue-600  after:absolute after:w-full after:-bottom-2 after:left-0'>
+        <span className='relative lg:w-40  text-[25px] w-24 lg:text-3xl font-bold lg:after:border-[3px] after:border-[1px] after:border-blue-600  after:absolute after:w-[140%] after:-bottom-1 after:-left-4'>
           Experience
         </span>
         <span className='lg:text-[23px] text-[14px]'>

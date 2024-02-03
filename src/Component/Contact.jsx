@@ -1,10 +1,16 @@
 import React from 'react'
-
+import { useState } from 'react';
 function Contact() {
+const HandleScroll = ()=>{
+
+}
+
   return (
     <div className='text-white'>
        
-<div className="relative flex items-top justify-center  w-full  lg:bg-inherit  bg-inherit  sm:items-center sm:pt-0">
+<div className="relative contact flex  items-top justify-center   w-full  lg:bg-inherit  bg-inherit  sm:items-center sm:pt-0">
+   
+
         <div className="max-w-6xl   sm:px-6 lg:px-8">
             <div className="lg:mt-8 overflow-hidden">
                 <div className="grid grid-cols-1 md:grid-cols-2">
@@ -98,5 +104,6 @@ function Contact() {
     </div>
   )
 }
+
 
 export default Contact

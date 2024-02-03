@@ -1,15 +1,14 @@
 import React from 'react'
-// import { *asPopper } from '@popperjs/core';
-// import insta from '../assets/instagram.png'
-// import link from '../assets/linkedin.png'
-// import msg from '../assets/gmail.png'
-// import fb from '../assets/facebook.png'
-// import { Link } from 'react-router-dom';
+import { usePortfolio } from '../context/PortfolioContext'
+import { Link } from 'react-router-dom';
 
 function Footer() {
-    function Handle(){
-        console.log("Clicked");
-    }
+    const {setScrollbtn} = usePortfolio();
+    
+    
+
+
+    
   return (
     <>
       <div className='' >
@@ -90,26 +89,33 @@ function Footer() {
 
 
         </div> */}
-        <div className="  z-[-2] bg-[#f4f4f7]">
+        <div className=" lg  z-[-2] bg-[#f4f4f7]">
         
-<footer className=" relative  lg:hidden block  flex flex-col items-center bg-cyan-900 overflow-hidden">
-    <div className="relative z-[1]   lg:w-full  lg:p-2    ">
+<footer className=" relative   border-green-500    flex flex-col items-center bg-cyan-900 overflow-hidden">
+    <div className="relative z-[1] lg:bg-[#e0dede]   lg:w-full  lg:p-2    ">
         <div className=" lg:m-0  w-full lg:w-full ">
             <div className="flex lg:flex-row flex-col py-10  lg:py-0  items-center justify-between ">
-                <div className=" z-[-2]   lg:space-x-0 px-3 space-x-10 lg:space-y-4 flex lg:flex-col  justify-between text-gray-300  w-full  md:justify-start">
-                    <ul className="list-disc lg:flex  list-inside lg:list-outside space-y-4 lg:space-y-0 lg:space-x-8 ">
-                        <li><a href="/" className="hover:text-sky-400  cursor-pointer transition">Home</a></li>
-                        <li><a href="#about" className="hover:text-sky-400 transition">About</a></li>
-                        <li><a href="#work" className="hover:text-sky-400  transition">Work</a></li>
-                        <li><a href="/experience" className="hover:text-sky-400 transition">Experience</a></li>
-                        <li><a href="/contact" className="hover:text-sky-400 transition">Contact</a></li>
-                        <li><a href="#" className="hover:text-sky-400 transition">Terms of Use</a></li>
+                <div className="    lg:space-x-0 px-3 space-x-10 lg:space-y-4 flex lg:flex-col  justify-between text-gray-300  w-full  md:justify-start">
+                    <ul className="list-disc lg:flex  list-inside lg:text-black lg:list-outside space-y-4 lg:space-y-0 lg:space-x-8 ">
+                        <li><Link onClick={()=>{setScrollbtn(false)
+                        ;
+                        
+                        }} to="/" className="hover:text-sky-400  cursor-pointer transition">Home</Link></li>
+                        <li><Link onClick={()=>{setScrollbtn(true); 
+                        
+                        
+                        
+                        }} to="about" className="hover:text-sky-400 transition">About</Link></li>
+                        <li><Link onClick={()=>{setScrollbtn(true)}} to="work" className="hover:text-sky-400  transition">Work</Link></li>
+                        <li><Link onClick={()=>{setScrollbtn(true)}} to="experience" className="hover:text-sky-400 transition">Experience</Link></li>
+                        <li><Link onClick={()=>{setScrollbtn(true)}} to="contact" className="hover:text-sky-400 transition">Contact</Link></li>
+                        <li><Link onClick={()=>{setScrollbtn(true)}} to="#" className="hover:text-sky-400 transition">Terms of Use</Link></li>
                     </ul>
 
-                    <ul role='list' className="space-y-8 lg:space-y-0  lg:space-x-3 lg:flex   ">
+                    <ul role='list' className="space-y-8 lg:space-y-0 lg:text-black  lg:space-x-3 lg:flex   ">
                         
                            <li className="">
-                           <a onClick={Handle} href='https://github.com/vinayk7324'  className="flex   items-center space-x-4   lg:hover:text-sky-400 transition">
+                           <a  href='https://github.com/vinayk7324'  className="flex   items-center space-x-4   lg:hover:text-sky-400 transition">
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="w-5 " viewBox="0 0 16 16">
 <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
                                 </svg>
@@ -176,17 +182,17 @@ function Footer() {
                     </ul>
             
                 </div>
-                <div className=" w-10/12 m-auto     mt-16 space-y-6 lg:space-y-4  text-center sm:text-left sm:w-5/12 sm:mt-auto">
-                    <span className="block text-gray-300">We can create fully responsive web Application </span>
+                <div className=" w-10/12 m-auto   lg:p-6   mt-16 space-y-6 lg:space-y-4  text-center sm:text-left lg:w-[33%] sm:mt-auto">
+                    <span className="block text-gray-300 lg:text-black">We can create fully responsive web Application </span>
 
-                    <span className="block text-gray-300">copyright &copy; 2024</span>
+                    <span className="block text-gray-300 lg:text-black">copyright &copy; 2024</span>
 
-                    <span className="flex justify-between text-white"> 
+                    <span className="flex justify-between lg:text-black text-white"> 
                         <a href="#" className="font-semibold">Terms of Use </a>
                         <a href="#" className="font-semibold"> Privacy Policy</a> 
                     </span>
 
-                    <span className="block text-gray-300">Need help? <a href="#" className="font-semibold text-white"> Contact Us</a></span>
+                    <span className="block lg:text-black text-gray-300">Need help? <a href="#contact" className="font-semibold lg:text-black text-white"> Contact Us</a></span>
                 </div>
             </div>
         </div>

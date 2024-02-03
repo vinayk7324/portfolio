@@ -9,12 +9,13 @@ function App() {
 
  
   const [IntroVisibility,setIntroVisibility] = useState(true);
+  const [Scrollbtn,setScrollbtn] = useState(false);
   return (
-    <ContextProvider value={{IntroVisibility,setIntroVisibility}}>
+    <ContextProvider value={{IntroVisibility,setIntroVisibility ,Scrollbtn ,setScrollbtn}}>
 
-      <div className='lg:h-screen relative lg:overflow-hidden  border-red-600 bg-[#0e0d38]'>
+      <div className='lg:h-[120vh]       border-red-600 bg-[#0e0d38]'>
         <Navbar />
-        <div className="lg:h-[90%]   flex items-center justify-between">
+        <div className="lg:h-[84%]        flex items-center justify-between">
 
           <div className="Left lg:mb-32 hidden lg:block text-white">
             <Left />
@@ -26,7 +27,7 @@ function App() {
         
         </div >
 
-      <div className="lg:absolute  w-full   lg:bottom-0 lg:right-0">
+      <div className="    w-full   lg:bottom lg:right-0">
         <Footer/>
       </div>
 

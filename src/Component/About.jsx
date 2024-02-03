@@ -3,7 +3,7 @@ import Abimg from '../assets/MyImgCopy.png'
 
 function About() {
   return (
-    <div className='text-white relative  lg:p-2 lg:h-[60vh]  space-y-4 flex flex-col items-center mt-2 lg:mt-0  lg:space-y-6'>
+    <div className='text-white lg:pb-7  relative   lg:h-[60vh] space-y-4 flex flex-col items-center mt-2 lg:mt-0  '>
       <div className="about">
         <span className= 'relative lg:text-3xl text-[23px] font-bold after:border-[1px] lg:after:border-[3px] after:border-blue-600 after:absolute after:w-[150%] after:-bottom-1 after:-left-3'>About</span>
       </div>
@@ -12,7 +12,7 @@ function About() {
 
 
             </div>
-      <div className=" flex  relative  lg:flex-row flex-col justify-center  lg:space-x-32">
+      <div className=" flex   relative  lg:flex-row flex-col justify-center  lg:space-x-28">
         <div className=" lg:text-right lg:w-60  lg:text-4xl  text-[30px] p-3 font-semibold">
           Hi. I'm vinay,nice to meet you. Please take a look around!
 
@@ -23,11 +23,8 @@ function About() {
             had a software expert available at your fingerprints?
 
           </div>
-          <div className="flex  lg:absolute lg:-bottom-12 ">
-            
-
-
-            <a className=" companyLogo p-1  px-2 ms-2 mt-3 rounded-md bg-blue-800 font-semibold ">
+          <div className="flex  lg:absolute lg:-bottom-9   ">
+            <a className=" companyLogo p-1  px-2 ms-2  rounded-md bg-blue-800 font-semibold ">
               Download CV
             </a>
             

@@ -3,28 +3,18 @@ import img from '../assets/th1.png'
 import { NavLink } from 'react-router-dom'
 import { usePortfolio } from '../context/PortfolioContext'
 
+
 function Navbar() {
   const {setIntroVisibility} = usePortfolio();
-  const [localstorage,setlocalStorage] = useState('');
   const [navbarPos,setNavbarPos] = useState("translate-x-[100%]");
+  const {setScrollbtn} = usePortfolio();
 
   setInterval(() => {
     document.querySelector('.time').innerHTML = new Date();
   },1000);
 
-  // function SetIntroVisibility(visible){
-  //   console.log("rom rom bhaiyon!",visible);
-  //   localStorage.setItem('visible',JSON.stringify(visible)||"true");
-  //   // console.log(localStorage.getItem('visible'));
-  // }
-    
 
-  
-  // useEffect(()=>{
-  //   console.log(JSON.parse(localStorage.getItem('visible')));
-  //   setIntroVisibility(JSON.parse(localStorage.getItem('visible')))
 
-  // },[SetIntroVisibility])
 
   function HandleNavbar(){
     console.log("function ");
@@ -48,7 +38,7 @@ function Navbar() {
   
 
   return (
-    <div className=' w-full  lg:p-0  lg:z-0 z-[4] bg-[#1a1a5f] lg:static fixed  lg:p-1  lg:shadow-[#191818ac] lg:shadow-lg  flex flex-col  items-center '>
+    <div className=' w-full  lg:p-0  lg:z-[4] z-[4] bg-[#1a1a5f]  fixed  lg:p-1  lg:shadow-[#191818ac] lg:shadow-lg  flex flex-col  items-center '>
        <div className="time text-[#4bebeb] lg:text-[16px]  w-full text-[10px] font-semibold ">
          
 
@@ -72,6 +62,7 @@ function Navbar() {
        <div className="      lg:bg-inherit  bg-white lg:space-x-12 space-x-1 font-semibold lg:text-[22px] text-[12px]  flex  items-center justify-center text-white">
           <NavLink to={"/"} onClick={()=>{
           setIntroVisibility(true)
+          setScrollbtn(false);
           
           
           }} className={({isActive})=>`${isActive?`bg-blue-700`:` lg:text-white lg:bg-[#111325] lg:hover:bg-[#5959a8] text-black lg:opacity-50`} lg:hover:scale-[1.03]    lg:hover:text-white transition-all duration-200  w-16 items-center justify-center flex  lg:rounded-sm rounded-r-sm cursor-pointer lg:logoShadow logoShadow   p-1 `} >

@@ -6,7 +6,7 @@ function Work() {
         
         <div className=" flex flex-col items-center lg:items-start   space-y-2">
          
-        <span className= 'relative w-fit lg:text-3xl font-bold after:border-[1px]  lg:after:border-[3px] after:border-blue-600 after:absolute after:w-full after:-bottom-1 after:left-0'>Work</span>
+        <span className= 'relative w-fit lg:text-3xl font-bold after:border-[1px]  lg:after:border-[3px] after:border-blue-600 after:absolute after:w-[140%] after:-bottom-1 after:-left-2'>Work</span>
      
           <div className=" flex  ">
           <span className=' text-[15px] lg:text-[23px]'>//Check out some of my recent work</span>
