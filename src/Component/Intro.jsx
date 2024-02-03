@@ -21,7 +21,7 @@ function Intro() {
         </span>
       </div>
       <div className=" ">
-        <NavLink to={"/work"} onClick={()=>{setIntroVisibility(false)}} className='lg:hover:scale-[1.02] lg:text-[20px] text-[16px] w-[60%] justify-between   lg:w-[18%] transition-all bg-blue-800 duration-200 cursor-pointer  font-semibold companyLogo  rounded-md lg:p-2 px-3 p-1 flex  items-center space-x-2 lg:space-x-5 text-white '>
+        <NavLink to={"/work"} onClick={()=>{setIntroVisibility(false)}} className='lg:hover:scale-[1.02] lg:text-[20px] text-[16px] w-[60%] justify-between   lg:w-[16%] transition-all bg-blue-800 duration-200 cursor-pointer  font-semibold companyLogo  rounded-md lg:p-2 px-3 p-1 flex  items-center space-x-2 text-white '>
           <span className=''>View Work</span>
           <span className="material-symbols-rounded">
             arrow_right_alt
