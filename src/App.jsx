@@ -6,6 +6,8 @@ import Intro from './Component/Intro'
 import Footer from './Component/Footer'
 
 function App() {
+
+ 
   const [IntroVisibility,setIntroVisibility] = useState(true);
   return (
     <ContextProvider value={{IntroVisibility,setIntroVisibility}}>

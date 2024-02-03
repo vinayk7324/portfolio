@@ -7,15 +7,15 @@ function Intro() {
     const {IntroVisibility,setIntroVisibility} =usePortfolio();
    
   return (
-    <div className="Intro lg:mt-0 mt-20   lg:w-[80%]  lg:ps-10  overflow-y-hidden   border-red-600 flex justify-between items-center  ">
-    <div className="flex space-y-6  flex-col   p-4 lg:rounded-md IntroShadow lg:IntroShadow w-[100vw]  lg:w-[70%] ">
+    <div className="Intro lg:mt-0 mt-20   lg:w-[80%]  lg:ps-10  overflow-y-hidden  lg:py-8  border-red-600 flex justify-between items-center  ">
+    <div className="flex space-y-6  flex-col overflow-scroll company overflow-x-hidden lg:h-[66%]   p-4 lg:p-6 lg:rounded-md IntroShadow lg:IntroShadow w-[100vw]  lg:w-[70%] ">
         <Outlet/>
      <div className={`space-y-5 ${IntroVisibility==false?"hidden":""} p-4`}  >
      <div className=" flex flex-col  space-y-3">
         <span className='text-red-600 text-[15px]  lg:text-[23px]'>Hi, my name is</span>
         <span className='text-white lg:text-5xl text-3xl font-semibold'>Vinay Kumar</span>
         <span className='text-slate-600 lg:text-5xl text-3xl font-bold'>I'm a Full Stack Developer.</span>
-        <span className='text-gray-400 font-semibold text-[15px] lg:text-[23px]'>I'm a full stack developer specializing in building (and occasionally designing) exceptional
+        <span className='text-gray-400 lg:w-80 lg:text-justify font-semibold text-[15px] lg:text-[23px]'>I'm a full stack developer specializing in building (and occasionally designing) exceptional
           digital experience.  Currently , I'm focused on building responsive full-stack web application.
 
         </span>
