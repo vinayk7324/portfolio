@@ -4,9 +4,11 @@ import { ContextProvider } from './context/PortfolioContext'
 import Left from './Component/Left'
 import Intro from './Component/Intro'
 import Footer from './Component/Footer'
+import useTitle from './DynamicTitle/useTitle'
 
 function App() {
 
+  useTitle("My Porfolio | Home"); 
  
   const [IntroVisibility,setIntroVisibility] = useState(true);
   const [Scrollbtn,setScrollbtn] = useState(false);

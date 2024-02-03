@@ -1,6 +1,8 @@
 import React from 'react'
+import useTitle from './../DynamicTitle/useTitle';
 
 function Work() {
+  useTitle("My Porfolio | Work")
   return (
     <div className='relative right-0 lg:mt-0 mt-4 text-white'>
         

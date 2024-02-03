@@ -8,7 +8,9 @@ import node from '../assets/nodejs.png'
 import aws from '../assets/aws.png'
 import tailwind from '../assets/tailwind.png'
 import bootstrap from '../assets/bootstrap.png'
+import useTitle from '../DynamicTitle/useTitle'
 function Experience() {
+  useTitle("My Portfolio | Experience")
   return (
     <div className='text-white   lg:p-0 p-2  lg:w-[100%]  '>
       <div className="flex  lg:space-y-7 space-y-3 flex-col lg:p-0 p">

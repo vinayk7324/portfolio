@@ -133,7 +133,32 @@
 
 }
 
+.Linkedin ,.Github,.Email,.insta{
+    animation-timing-function: ease-in-out;
+    animation-iteration-count:infinite;
+    animation-direction:alternate-reverse;
+}
+.Linkedin{
+    /* animation-delay: 12s; */
+    animation-duration: 3s;
+    
 
+}
+.Github{
+   
+    animation-duration: 4s;
+
+}
+.Email{
+    animation-duration: 5s;
+
+
+
+}
+.insta{
+    animation-duration: 6s;
+
+}
 
 
 
