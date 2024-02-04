@@ -20,6 +20,24 @@
 
 
 }
+.companyLogoG{
+    box-shadow: 3px 3px 30px rgb(109, 109, 112); 
+    
+
+
+}
+.companyLogoM{
+    box-shadow: 3px 3px 30px rgb(13, 181, 218); 
+    
+
+
+}
+.companyLogoI{
+    box-shadow: 3px 3px 30px rgb(183, 183, 190); 
+    
+
+
+}
 .i{
     filter: drop-shadow(2px 6px 1px blue );
 }
