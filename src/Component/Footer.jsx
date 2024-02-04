@@ -3,7 +3,7 @@ import { usePortfolio } from '../context/PortfolioContext'
 import { Link } from 'react-router-dom';
 import map from "../assets/Map.png"
 function Footer() {
-    const {setScrollbtn} = usePortfolio();
+    const {setScrollbtn,setIntroVisibility} = usePortfolio();
     
     
 
@@ -108,7 +108,8 @@ function Footer() {
                 </Link>
                 <div className="    lg:space-x-60 px-3 space-x-10  flex     lg:justify-center text-gray-300  w-full  ">
                     <ul className="list-disc lg:flex lg:flex-col  list-inside lg:text-black lg:list-outside space-y-4 lg:space-y-0 lg:space-y-8 ">
-                        <li><Link onClick={()=>{setScrollbtn(false)
+                        <li><Link onClick={()=>{setScrollbtn(false);
+                        setIntroVisibility(true)
                         ;
                         
                         }} to="/" className="hover:text-sky-400  cursor-pointer transition">Home</Link></li>

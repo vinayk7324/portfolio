@@ -17,7 +17,7 @@ function App() {
 
       <div className='lg:h-[120vh]       border-red-600 bg-[#0e0d38]'>
         <Navbar />
-        <div className="lg:h-[84%]        flex items-center justify-between">
+        <div className="lg:h-[84%]         flex items-center justify-between">
 
           <div className="Left lg:mb-32 hidden lg:block text-white">
             <Left />
