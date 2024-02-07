@@ -182,6 +182,30 @@
 }
 
 
+.button{
+    box-shadow: inset 3px 3px 30px  rgb(39, 39, 39);
+    
+    
+}
+.liquid{
+    animation: animate 7s infinite linear both;
+}
+.html .liquid{
+    animation-delay: 1s;
+}
+.css .liquid{
+    animation-delay: 1.5s;
+}
+@keyframes animate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 
   
 
