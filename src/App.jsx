@@ -9,8 +9,12 @@ import useTitle from './DynamicTitle/useTitle'
 function App() {
 
   useTitle("My Porfolio | Home"); 
+  const value = localStorage.getItem('visible');
+  onbeforeunload = ()=>{
+    localStorage.removeItem('visible')
+  }
  
-  const [IntroVisibility,setIntroVisibility] = useState(true);
+  const [IntroVisibility,setIntroVisibility] = useState(value!=null?JSON.parse(value):true);
   const [Scrollbtn,setScrollbtn] = useState(false);
   return (
     <ContextProvider value={{IntroVisibility,setIntroVisibility ,Scrollbtn ,setScrollbtn}}>

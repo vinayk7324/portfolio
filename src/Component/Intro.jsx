@@ -6,12 +6,12 @@ import { usePortfolio } from '../context/PortfolioContext'
 
 function Intro() {
   const { IntroVisibility, setIntroVisibility, Scrollbtn } = usePortfolio();
-  console.log(IntroVisibility);
+  
   return (
     <div className="Intro lg:mt-0 mt-20  w-full lg:w-[85%]   lg:h-[100%] lg:ps-10   overflow-y-hidden   lg:py-8  border-red-600 lg:flex justify-between items-center lg:items-start  ">
       <div className="flex space-y-6     lg:ms-4  lg:mt-40  flex-col overflow-scroll company overflow-x-hidden max-h-[73%]    lg:p-6  lg:rounded-md IntroShadow lg:IntroShadow w-[100%]  lg:w-[72%] ">
 
-        <div className={`space-y-5 lg:flex lg:flex-col  ${!IntroVisibility ? "lg:hidden" : ""}  p-4`}  >
+        <div className={`space-y-5 flex lg:flex-col ${IntroVisibility?"":"hidden"}   p-4`}  >
           <div className=" lg:hidden flex justify-center">
             <div className=' h-24 w-24 rounded-full overflow-hidden bg-blue-600    border-[4px]'>
               <img src={Iimg} className='w-full' alt="" />

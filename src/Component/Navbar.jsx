@@ -67,7 +67,9 @@ function Navbar() {
             <NavLink to={"/"} onClick={() => {
                 document.title = "My Porfolio | Home";
                 setScrollbtn(false);
-                setIntroVisibility(true);
+                localStorage.removeItem('visible');
+                localStorage.setItem('visible','true')
+                setIntroVisibility(JSON.parse(localStorage.getItem('visible')))
               }
             } className={({ isActive }) => `${isActive ? `bg-blue-700` : ` lg:text-white lg:bg-[#111325] lg:hover:bg-[#5959a8] text-black lg:opacity-50`} lg:hover:scale-[1.03]    lg:hover:text-white transition-all duration-200  w-16 items-center justify-center flex  lg:rounded-sm rounded-r-sm cursor-pointer lg:logoShadow logoShadow   p-1 `} >
 
@@ -75,17 +77,23 @@ function Navbar() {
             </NavLink>
             <NavLink onClick={() => {
               
-              setIntroVisibility(false)
+              localStorage.setItem('visible','false');
+              setIntroVisibility(JSON.parse(localStorage.getItem('visible')))
+
             }} to={"about"} className={({ isActive }) => `${isActive ? "bg-blue-700" : "lg:text-white lg:bg-[#111325] lg:hover:bg-[#5959a8] text-black lg:opacity-50"} navlink lg:hover:scale-[1.03]  lg:hover:text-white transition-all  lg:hover:text-white w-16 items-center justify-center flex  rounded-sm cursor-pointer lg:logoShadow logoShadow   p-1`} >About</NavLink>
             <NavLink onClick={() => {
-              setIntroVisibility(false)
+               localStorage.setItem('visible','false');
+               setIntroVisibility(JSON.parse(localStorage.getItem('visible')))
             }} to={"experience"} className={({ isActive }) => `${isActive ? "bg-blue-700" : "lg:text-white  lg:bg-[#111325] lg:hover:bg-[#5959a8] text-black lg:opacity-50"} navlink lg:hover:scale-[1.03]  lg:hover:text-white transition-all lg:hover:text-white w-28 items-center justify-center flex  rounded-sm cursor-pointer lg:logoShadow logoShadow   p-1`} >Experience</NavLink>
             <NavLink  to={"/work"} onClick={() => {
-              setIntroVisibility(false);
+               localStorage.setItem('visible','false');
+               setIntroVisibility(JSON.parse(localStorage.getItem('visible')))
               
             }} className={({ isActive }) => `${isActive ? "bg-blue-700" : "lg:text-white lg:bg-[#111325] lg:hover:bg-[#5959a8] text-black lg:opacity-50"} navlink   lg:hover:scale-[1.03]  lg:hover:text-white transition-all  lg:hover:text-white w-16 items-center justify-center flex   rounded-sm cursor-pointer lg:logoShadow logoShadow   p-1`} >Work</NavLink>
             <NavLink to={"contact"} onClick={() => {
-              setIntroVisibility(false)
+              localStorage.setItem('visible','false');
+              setIntroVisibility(JSON.parse(localStorage.getItem('visible')))
+              
             }} className={({ isActive }) => `${isActive ? "bg-blue-700" : "lg:text-white lg:bg-[#111325] lg:hover:bg-[#5959a8] text-black lg:opacity-50"} navlink lg:hover:scale-[1.03]  lg:hover:text-white transition-all lghover:text-white w-20 items-center justify-center flex   lg:rounded-sm rounded-l-sm cursor-pointer logoShadow lg:logoShadow   p-1`} >Contact</NavLink>
           </div>
         </div>
